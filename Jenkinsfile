@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from Git repository
-                git branch: 'main', url: 'https://github.com/my-organization/my-repo.git'
+                git branch: 'main', url: 'https://github.com/aasthaas/Hello-World-Groovy'
             }
         }
 
